@@ -1,6 +1,6 @@
 # npmtest-express-graphql
 
-#### test coverage for  [express-graphql (v0.6.4)](https://github.com/graphql/express-graphql#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-graphql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-graphql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-graphql.svg)](https://travis-ci.org/npmtest/node-npmtest-express-graphql)
+#### basic test coverage for  [express-graphql (v0.6.4)](https://github.com/graphql/express-graphql#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-graphql.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-graphql) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-graphql.svg)](https://travis-ci.org/npmtest/node-npmtest-express-graphql)
 
 #### Production ready GraphQL HTTP middleware.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-graphql/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-graphql/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-graphql/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-graphql/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-graphql/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-graphql/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-graphql/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-graphql/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-graphql/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-graphql/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-graphql/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-graphql/build/coverage.html/index.html)
 
@@ -155,7 +155,8 @@
         "testonly": "mocha $npm_package_options_mocha",
         "watch": "node resources/watch.js"
     },
-    "version": "0.6.4"
+    "version": "0.6.4",
+    "bin": {}
 }
 ```
 
